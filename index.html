@@ -1,0 +1,871 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffee Kenangan, UMKM kopi dengan cita rasa istimewa di Makassar.">
+    <title>Coffee Kenangan | Taste Every Memory</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <div class="loader-cup">
+        <i class="bi bi-cup-hot-fill"></i>
+    </div>
+    <h4>Coffee Kenangan</h4>
+    <p>Brewing your happiness...</p>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+
+        <a class="navbar-brand" href="#home">
+            <span class="brand-icon">
+                <i class="bi bi-cup-hot-fill"></i>
+            </span>
+            Coffee<span>Kenangan.</span>
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+            aria-label="Buka menu navigasi">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#produk">Produk</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#unggulan">Unggulan</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#tentang">Tentang</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#galeri">Galeri</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimoni">Testimoni</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a href="#pemesanan" class="btn btn-nav">
+                        Pesan Sekarang
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- HERO -->
+<section id="home" class="hero-section">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-7 hero-text" data-aos="fade-up">
+
+                <span class="hero-label">
+                    <i class="bi bi-stars"></i>
+                    WELCOME TO COFFEE KENANGAN
+                </span>
+
+                <h1>
+                    Setiap Cangkir
+                    Punya <span>Cerita.</span>
+                </h1>
+
+                <p>
+                    Nikmati kehangatan secangkir kopi dengan
+                    cita rasa istimewa. Temukan kenangan baru
+                    dalam setiap tegukan bersama kami.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#produk" class="btn btn-primary-coffee">
+                        Jelajahi Menu
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+
+                    <a href="#tentang" class="btn btn-outline-coffee">
+                        Tentang Kami
+                    </a>
+                </div>
+
+                <div class="hero-info">
+                    <div>
+                        <strong>100%</strong>
+                        <span>Cinta dalam setiap racikan</span>
+                    </div>
+                    <div class="hero-divider"></div>
+                    <div>
+                        <strong>Fresh</strong>
+                        <span>Dibuat saat dipesan</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5 hero-image" data-aos="fade-left">
+                <div class="hero-image-wrapper">
+                    <img
+                        src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=85"
+                        alt="Secangkir kopi Coffee Kenangan"
+                    >
+                    <div class="floating-card">
+                        <i class="bi bi-heart-fill"></i>
+                        <div>
+                            <strong>Made with Love</strong>
+                            <small>For your special moments</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <i class="bi bi-arrow-down"></i>
+    </div>
+
+</section>
+
+
+<!-- PRODUK -->
+<section id="produk" class="section-padding">
+
+    <div class="container">
+
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-subtitle">OUR MENU</span>
+            <h2>Temukan Menu <span>Favoritmu</span></h2>
+            <p>
+                Racikan terbaik dengan rasa yang siap
+                menemani setiap aktivitasmu.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85" alt="Es Kopi Susu" loading="lazy">
+                        <span class="menu-category">BEST SELLER</span>
+                    </div>
+
+                    <div class="menu-content">
+                        <div class="menu-rating">
+                            <i class="bi bi-star-fill"></i> 5.0
+                        </div>
+                        <h4>Es Kopi Susu</h4>
+                        <p>Perpaduan kopi, susu creamy dan gula aren.</p>
+                        <div class="menu-bottom">
+                            <strong>Rp15.000</strong>
+                            <a href="#pemesanan" class="menu-order" data-product="Es Kopi Susu">
+                                <i class="bi bi-plus-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85" alt="Coffee Latte" loading="lazy">
+                    </div>
+
+                    <div class="menu-content">
+                        <div class="menu-rating">
+                            <i class="bi bi-star-fill"></i> 5.0
+                        </div>
+                        <h4>Coffee Latte</h4>
+                        <p>Espresso dengan susu lembut dan nikmat.</p>
+                        <div class="menu-bottom">
+                            <strong>Rp18.000</strong>
+                            <a href="#pemesanan" class="menu-order" data-product="Coffee Latte">
+                                <i class="bi bi-plus-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=85" alt="Americano" loading="lazy">
+                    </div>
+
+                    <div class="menu-content">
+                        <div class="menu-rating">
+                            <i class="bi bi-star-fill"></i> 4.9
+                        </div>
+                        <h4>Americano</h4>
+                        <p>Kopi hitam dengan karakter rasa yang khas.</p>
+                        <div class="menu-bottom">
+                            <strong>Rp13.000</strong>
+                            <a href="#pemesanan" class="menu-order" data-product="Americano">
+                                <i class="bi bi-plus-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=85" alt="Cappuccino" loading="lazy">
+                    </div>
+
+                    <div class="menu-content">
+                        <div class="menu-rating">
+                            <i class="bi bi-star-fill"></i> 4.9
+                        </div>
+                        <h4>Cappuccino</h4>
+                        <p>Espresso dengan foam susu yang lembut.</p>
+                        <div class="menu-bottom">
+                            <strong>Rp17.000</strong>
+                            <a href="#pemesanan" class="menu-order" data-product="Cappuccino">
+                                <i class="bi bi-plus-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=85" alt="Chocolate Coffee" loading="lazy">
+                    </div>
+
+                    <div class="menu-content">
+                        <div class="menu-rating">
+                            <i class="bi bi-star-fill"></i> 4.9
+                        </div>
+                        <h4>Chocolate Coffee</h4>
+                        <p>Kombinasi cokelat dan kopi yang nikmat.</p>
+                        <div class="menu-bottom">
+                            <strong>Rp17.000</strong>
+                            <a href="#pemesanan" class="menu-order" data-product="Chocolate Coffee">
+                                <i class="bi bi-plus-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=85" alt="Vanilla Latte" loading="lazy">
+                    </div>
+
+                    <div class="menu-content">
+                        <div class="menu-rating">
+                            <i class="bi bi-star-fill"></i> 4.8
+                        </div>
+                        <h4>Vanilla Latte</h4>
+                        <p>Latte dengan aroma vanilla yang khas.</p>
+                        <div class="menu-bottom">
+                            <strong>Rp19.000</strong>
+                            <a href="#pemesanan" class="menu-order" data-product="Vanilla Latte">
+                                <i class="bi bi-plus-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- PRODUK UNGGULAN -->
+<section id="unggulan" class="featured-section">
+
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1000&q=85" alt="Menu unggulan Coffee Kenangan" loading="lazy">
+                    <div class="featured-stamp">
+                        <i class="bi bi-award-fill"></i>
+                        <span>OUR<br>SPECIAL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left">
+
+                <span class="section-subtitle">SIGNATURE MENU</span>
+                <h2 class="featured-title">
+                    Satu Rasa,<br>
+                    <span>Sejuta Kenangan.</span>
+                </h2>
+
+                <p>
+                    Es Kopi Susu menjadi salah satu menu
+                    andalan Coffee Kenangan. Dibuat dengan
+                    perpaduan kopi dan susu yang seimbang.
+                </p>
+
+                <div class="featured-detail">
+                    <span><i class="bi bi-check-circle-fill"></i> Rasa kopi autentik</span>
+                    <span><i class="bi bi-check-circle-fill"></i> Susu creamy</span>
+                    <span><i class="bi bi-check-circle-fill"></i> Gula aren pilihan</span>
+                </div>
+
+                <div class="featured-price">
+                    <strong>Rp15.000</strong>
+                    <a href="#pemesanan" class="btn btn-primary-coffee">
+                        Pesan Menu <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- PARALLAX -->
+<section class="parallax-section" id="cerita">
+
+    <div class="parallax-background"></div>
+
+    <div class="container parallax-content" data-aos="zoom-in">
+        <span>MORE THAN JUST COFFEE</span>
+        <h2>
+            Bukan Sekadar Kopi,<br>
+            Tetapi Sebuah Cerita.
+        </h2>
+        <p>
+            Karena setiap momen berharga pantas ditemani
+            secangkir kopi yang istimewa.
+        </p>
+        <a href="#tentang" class="btn btn-light">
+            Cerita Kami
+        </a>
+    </div>
+
+</section>
+
+
+<!-- TENTANG KAMI -->
+<section id="tentang" class="section-padding about-section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6" data-aos="fade-right">
+
+                <span class="section-subtitle">OUR STORY</span>
+
+                <h2 class="section-title-left">
+                    Mengenal Lebih Dekat
+                    <span>Coffee Kenangan.</span>
+                </h2>
+
+                <p>
+                    Coffee Kenangan merupakan usaha UMKM
+                    yang hadir untuk memberikan pengalaman
+                    menikmati kopi dengan cita rasa yang
+                    nikmat dan harga yang terjangkau.
+                </p>
+
+                <p>
+                    Berawal dari kecintaan terhadap kopi,
+                    kami ingin menghadirkan tempat dan
+                    minuman yang dapat menemani berbagai
+                    cerita dalam kehidupan sehari-hari.
+                </p>
+
+                <div class="about-features">
+
+                    <div>
+                        <i class="bi bi-cup-hot-fill"></i>
+                        <div>
+                            <strong>Kualitas Rasa</strong>
+                            <small>Menjaga kualitas setiap racikan.</small>
+                        </div>
+                    </div>
+
+                    <div>
+                        <i class="bi bi-heart-fill"></i>
+                        <div>
+                            <strong>Dibuat dengan Hati</strong>
+                            <small>Memberikan pengalaman terbaik.</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=85" alt="Suasana kedai kopi" loading="lazy">
+                    <div class="about-image-label">
+                        <strong>COFFEE KENANGAN</strong>
+                        <span>Made for every moment.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- GALERI -->
+<section id="galeri" class="section-padding gallery-section">
+
+    <div class="container">
+
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-subtitle">OUR GALLERY</span>
+            <h2>Galeri <span>Kenangan</span></h2>
+            <p>Beberapa inspirasi suasana dan sajian kopi kami.</p>
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item gallery-tall" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=85" alt="Interior coffee shop" loading="lazy">
+                <div class="gallery-caption">Coffee Atmosphere</div>
+            </div>
+
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85" alt="Coffee preparation" loading="lazy">
+                <div class="gallery-caption">Fresh Coffee</div>
+            </div>
+
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=85" alt="Cappuccino" loading="lazy">
+                <div class="gallery-caption">Coffee Moments</div>
+            </div>
+
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85" alt="Coffee cup" loading="lazy">
+                <div class="gallery-caption">Our Favorite</div>
+            </div>
+
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85" alt="Coffee brewing" loading="lazy">
+                <div class="gallery-caption">Coffee Story</div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- TESTIMONI -->
+<section id="testimoni" class="section-padding testimonial-section">
+
+    <div class="container">
+
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-subtitle">CUSTOMER REVIEWS</span>
+            <h2>Cerita dari <span>Pelanggan</span></h2>
+            <p>Pengalaman pelanggan bersama Coffee Kenangan.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>
+                        "Kopinya enak, rasanya pas dan
+                        harganya juga terjangkau. Cocok
+                        untuk menemani aktivitas sehari-hari."
+                    </p>
+                    <div class="customer">
+                        <div class="customer-avatar">A</div>
+                        <div>
+                            <strong>Andi</strong>
+                            <small>Pelanggan</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>
+                        "Pelayanannya ramah dan pilihan
+                        menunya menarik. Saya suka sekali
+                        dengan Es Kopi Susunya."
+                    </p>
+                    <div class="customer">
+                        <div class="customer-avatar">R</div>
+                        <div>
+                            <strong>Rina</strong>
+                            <small>Pelanggan</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>
+                        "Tempat yang cocok untuk menikmati
+                        kopi. Rasanya enak dan kualitasnya
+                        memuaskan."
+                    </p>
+                    <div class="customer">
+                        <div class="customer-avatar">F</div>
+                        <div>
+                            <strong>Fajar</strong>
+                            <small>Pelanggan</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ -->
+<section id="faq" class="section-padding faq-section">
+
+    <div class="container">
+
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-subtitle">FREQUENTLY ASKED QUESTIONS</span>
+            <h2>Pertanyaan <span>Umum</span></h2>
+            <p>Informasi yang sering ditanyakan pelanggan.</p>
+        </div>
+
+        <div class="accordion faq-accordion" id="faqAccordion">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#faq1">
+                        Di mana lokasi Coffee Kenangan?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Coffee Kenangan merupakan UMKM yang
+                        berlokasi di Makassar, Sulawesi Selatan.
+                        Alamat kedai perlu disesuaikan dengan
+                        lokasi usaha sebenarnya.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#faq2">
+                        Apa saja menu yang tersedia?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Kami menyediakan Es Kopi Susu, Coffee Latte,
+                        Americano, Cappuccino, Chocolate Coffee,
+                        dan Vanilla Latte.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#faq3">
+                        Bagaimana cara memesan produk?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Kamu bisa memilih menu pada formulir
+                        pemesanan, mengisi data, lalu mengirim
+                        pesanan melalui WhatsApp.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#faq4">
+                        Apakah bisa memesan dalam jumlah banyak?
+                    </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Silakan hubungi WhatsApp Coffee Kenangan
+                        untuk menanyakan pemesanan dalam jumlah banyak.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- PEMESANAN -->
+<section id="pemesanan" class="section-padding order-section">
+
+    <div class="container">
+
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-subtitle">ORDER NOW</span>
+            <h2>Pesan Kopi <span>Favoritmu</span></h2>
+            <p>Isi formulir berikut untuk melakukan pemesanan.</p>
+        </div>
+
+        <div class="order-box" data-aos="fade-up">
+
+            <form id="orderForm">
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label for="customerName">Nama Lengkap</label>
+                        <input type="text" id="customerName"
+                            class="form-control" placeholder="Masukkan nama"
+                            required maxlength="60">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="customerPhone">Nomor WhatsApp</label>
+                        <input type="tel" id="customerPhone"
+                            class="form-control" placeholder="08xxxxxxxxxx"
+                            required maxlength="20">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="productSelect">Pilih Menu</label>
+                        <select id="productSelect" class="form-select" required>
+                            <option value="">Pilih produk</option>
+                            <option value="Es Kopi Susu">Es Kopi Susu - Rp15.000</option>
+                            <option value="Coffee Latte">Coffee Latte - Rp18.000</option>
+                            <option value="Americano">Americano - Rp13.000</option>
+                            <option value="Cappuccino">Cappuccino - Rp17.000</option>
+                            <option value="Chocolate Coffee">Chocolate Coffee - Rp17.000</option>
+                            <option value="Vanilla Latte">Vanilla Latte - Rp19.000</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="quantity">Jumlah Pesanan</label>
+                        <input type="number" id="quantity"
+                            class="form-control" min="1" max="50"
+                            value="1" required>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="orderNote">Catatan Pesanan</label>
+                        <textarea id="orderNote" class="form-control"
+                            rows="4" maxlength="300"
+                            placeholder="Contoh: sedikit gula, tanpa es..."></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary-coffee w-100">
+                            <i class="bi bi-whatsapp"></i>
+                            Kirim Pesanan melalui WhatsApp
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- LOKASI -->
+<section id="lokasi" class="location-section">
+
+    <div class="container">
+        <div class="location-heading" data-aos="fade-up">
+            <span class="section-subtitle">FIND US</span>
+            <h2>Kunjungi <span>Coffee Kenangan</span></h2>
+            <p>Temukan lokasi kami di Makassar, Sulawesi Selatan.</p>
+        </div>
+    </div>
+
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps?q=Makassar%2C%20Sulawesi%20Selatan%2C%20Indonesia&output=embed"
+            title="Peta Makassar"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+                <a class="footer-brand" href="#home">
+                    <i class="bi bi-cup-hot-fill"></i>
+                    Coffee Kenangan.
+                </a>
+                <p>
+                    Setiap cangkir memiliki cerita.
+                    Nikmati pengalaman kopi yang istimewa
+                    bersama Coffee Kenangan.
+                </p>
+            </div>
+
+            <div class="col-6 col-lg-2">
+                <h5>Navigasi</h5>
+                <a href="#home">Home</a>
+                <a href="#produk">Produk</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#galeri">Galeri</a>
+            </div>
+
+            <div class="col-6 col-lg-2">
+                <h5>Informasi</h5>
+                <a href="#testimoni">Testimoni</a>
+                <a href="#faq">FAQ</a>
+                <a href="#pemesanan">Pemesanan</a>
+                <a href="#lokasi">Lokasi</a>
+            </div>
+
+            <div class="col-lg-4">
+                <h5>Hubungi Kami</h5>
+                <p><i class="bi bi-geo-alt"></i> Makassar, Sulawesi Selatan</p>
+                <p><i class="bi bi-whatsapp"></i> WhatsApp Coffee Kenangan</p>
+
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Coffee Kenangan. All Rights Reserved.</p>
+            <a href="#home">Back to Top ↑</a>
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- FLOATING WHATSAPP -->
+<a href="#" class="whatsapp-float" id="whatsappFloat"
+   target="_blank" rel="noopener noreferrer"
+   aria-label="Hubungi Coffee Kenangan melalui WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    <span>Chat Kami</span>
+</a>
+
+
+<!-- BACK TO TOP -->
+<button id="backToTop" aria-label="Kembali ke atas">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
